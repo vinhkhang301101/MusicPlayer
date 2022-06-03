@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="shortcut icon" href="#" />
+</head>
+<body>
+    <div class="player">
+        <div class="dashboard">
+            <header>
+                <h4>Now Playing</h4>
+                <h2>Akuma no Ko</h2>
+            </header>
+            
+            <div class="CD">
+                <div class="CD-thumbnails" style="background-image: url(./images/AkumaNoKo.png)"></div>
+            </div>
+
+            <div class="control">
+                <div class="btn shuffle-btn">
+                    <i class="fas fa-shuffle"></i>
+                </div>
+                
+                <div class="btn prev-btn">
+                    <i class="fas fa-backward-step"></i>
+                </div>
+                
+                <div class="btn toogle-play-btn">
+                    <i class="icon-pause fas fa-pause"></i>
+                    <i class="icon-play fas fa-play"></i>
+                </div>
+                
+                <div class="btn next-btn">
+                    <i class="fas fa-forward-step"></i>
+                </div>
+                
+                <div class="btn repeat-btn">
+                    <i class="fas fa-repeat"></i>
+                </div>
+            </div>
+
+            <input type="range" id="progress" class="progress" value="0" step="1" min="0" max="100">
+
+            <audio id="audio" src=""></audio>
+        </div>
+
+        <div class="playlist">
+            
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
