@@ -91,7 +91,14 @@ const app = {
             singer: 'Ultra Tower',
             path: './music/Kibou no Uta - Ultra Tower.mp3',
             image: './images/KibouNoUta.png'
-        }
+        },
+
+        {
+            name: 'Yoru ni Kakeru',
+            singer: 'YOASOBI',
+            path: './music/YoruNiKakeru.mp3',
+            image: './images/YoruNiKakeru.png'
+        },
     ],
 
     setConfig: function(key, value) {
